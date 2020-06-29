@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Flegrom</title>
+</head>
+<body>
+    <div class="media">
+        <div class="media-body">
+          <h5 class="mt-0 mb-1">Prueba Clinica</h5>
+          La Batería Computarizada para la Evaluación Cognitiva del TDA-H o Cognitive Assessment Battery for ADHD (CAB-ADHD) de CogniFit es una herramienta profesional líder, que consta de una batería de pruebas clínicas y tareas validadas, dirigidas a detectar y valorar de forma rápida y precisa la presencia de síntomas, rasgos y disfuncionalidades en los procesos cognitivos afectados en el Trastorno por Déficit de Atención con o sin Hiperactividad.
+        </div>
+        <img src="tdha.jpg" class="ml-3" alt="tdha" width="300" height="200">
+      </div>
+      <h2>Dias de la Semana</h2>
+    <div class="list-group">
+        <button type="button" class="list-group-item list-group-item-action active">
+          Lunes
+        </button>
+        <button type="button" class="list-group-item list-group-item-action">Martes</button>
+        <button type="button" class="list-group-item list-group-item-action">Miercoles</button>
+        <button type="button" class="list-group-item list-group-item-action">Jueves</button>
+        <button type="button" class="list-group-item list-group-item-action" .disabled>Viernes</button>
+      </div>
+      </div>
+      <h2>Orden de los dias</h2>
+      <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-secondary">Primer dia</button>
+        <button type="button" class="btn btn-secondary">Segundo dia</button>
+        <button type="button" class="btn btn-secondary">Tercer dia</button>
+        <button type="button" class="btn btn-secondary">Cuarto dia</button>
+        <button type="button" class="btn btn-secondary">Quinto dia</button>
+      </div>
+      <h2>Selecciona las opciones correctas</h2>
+      <select class="form-control form-control">
+        <option>Dias habiles de la semana</option>
+        <option>10</option>
+        <option>8</option>
+        <option>5</option>
+        <option>7</option>
+      </select>
+      <select class="form-control">
+        <option>Segundo dia habil de la semana</option>
+        <option>Lunes</option>
+        <option>Viernes</option>
+        <option>Miercoles</option>
+        <option>Martes</option>
+      </select>
+      <select class="form-control form-control">
+        <option>Ultimo dia habil de la semana</option>
+        <option>Viernes</option>
+        <option>Jueves</option>
+        <option>Lunes</option>
+        <option>Miercoles</option>
+      </select>
+      <h2>Selecciona las secuencias correctas</h2>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+        <label class="form-check-label" for="inlineCheckbox1">Lunes-Jueves</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+        <label class="form-check-label" for="inlineCheckbox2">Miercoles-Jueves-Viernes</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+        <label class="form-check-label" for="inlineCheckbox3">Martes-Miercoles</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option4">
+        <label class="form-check-label" for="inlineCheckbox3">Viernes-Miercoles</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option5">
+        <label class="form-check-label" for="inlineCheckbox3">Martes-Jueves-Lunes</label>
+      </div>
+      <h2>Desarrollo</h2>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Escriba de forma ordenada los 7 dias de la semana</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <h2>Paciente</h2>
+      </div>
+      <form class="needs-validation" novalidate>
+        <div class="form-row">
+          <div class="col-md-6 mb-3">
+            <label for="validationTooltip01">Nombre</label>
+            <input type="text" class="form-control" id="validationTooltip01" value="Mark" required>
+            <div class="valid-tooltip">
+              Looks good!
+            </div>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="validationTooltip02">Apellidos</label>
+            <input type="text" class="form-control" id="validationTooltip02" value="Otto" required>
+            <div class="valid-tooltip">
+              Looks good!
+            </div>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col-md-6 mb-3">
+            <label for="validationTooltip03">Ciudad</label>
+            <input type="text" class="form-control" id="validationTooltip03" required>
+            <div class="invalid-tooltip">
+              Please provide a valid city.
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="validationTooltip04">Departamento</label>
+            <select class="custom-select" id="validationTooltip04" required>
+              <option selected disabled value="">Seleccionar</option>
+              <option>Atlantico</option>
+              <option>Bolivar</option>
+              <option>Magdalena</option>
+              <option>Cundinamarca</option>
+            </select>
+            <div class="invalid-tooltip">
+              Please select a valid state.
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="validationTooltip05">Sector</label>
+            <input type="text" class="form-control" id="validationTooltip05" required>
+            <div class="invalid-tooltip">
+              Please provide a valid zip.
+            </div>
+          </div>
+        </div>
+        <button class="btn btn-primary" type="submit">Finalizar</button>
+      </form>
+    
+
+
+</body>
+</html>
